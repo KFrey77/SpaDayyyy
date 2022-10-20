@@ -1,0 +1,26 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+<h1>User Information</h1>
+<form method='post' action='/user/add'>
+    @*action '/user/add*@
+
+    <label for='username'>Username</label> 
+    <input name='username' type='text'/>
+    
+    <label for='email' >Email</label>
+    <input name='email' type='email'/>
+    
+    
+    <label for='password' >Password</label>
+    <input name='password' type='password' />
+  
+    <label for='verify'> Verify Password</label>
+    <input type='password' value='Password'>
+    
+    <input type='submit' value='Add Event' />
+
+    </form>
